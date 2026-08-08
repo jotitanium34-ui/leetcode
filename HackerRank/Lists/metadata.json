@@ -1,0 +1,9 @@
+{
+  "code": "n = int(input())\nl=[]\nl.insert(0,5)\nl.insert(1,10)\nl.insert(0,6)\nprint(l)\nl.remove(6)\nl.append(9)\nl.append(1)\nl.sort()\nprint(l)\nl.pop()\nl.reverse()\nprint(l)\n",
+  "difficulty": "",
+  "language": "unknown",
+  "platform": "HackerRank",
+  "problemName": "Lists",
+  "submissionDate": "2026-08-08T20:18:51.337Z",
+  "submissionUrl": "https://www.hackerrank.com/challenges/python-lists/problem?isFullScreen=true"
+}
