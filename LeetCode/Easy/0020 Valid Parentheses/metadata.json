@@ -1,0 +1,10 @@
+{
+  "code": "class Solution(object):\n    def isValid(self, s):\n        st=[]\n        d={\"(\":\")\",\"{\":\"}\",\"[\":\"]\"}\n        for i in s:\n            if i in d.keys():\n                st.append(i)\n            else:\n                if st==[]:\n                    return False\n                else:\n                    if d[st[-1]]==i:\n                        st.pop()\n                    else:\n                        return False\n        if st==[]:\n            return True\n        else:\n            return False\n\n\n\n            \n\n\n        \n       ",
+  "difficulty": "Easy",
+  "language": "python",
+  "platform": "LeetCode",
+  "problemName": "Valid Parentheses",
+  "problemNumber": "20",
+  "submissionDate": "2026-08-08T20:29:04.119Z",
+  "submissionUrl": "https://leetcode.com/problems/valid-parentheses/submissions/"
+}
